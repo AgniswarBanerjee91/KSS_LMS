@@ -137,6 +137,8 @@ PASSWORD_HASHERS = [
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
+WHITENOISE_MANIFEST_STRICT = False
+
 
 LANGUAGE_CODE = 'en-us'
 
